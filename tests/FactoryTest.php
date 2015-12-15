@@ -177,7 +177,7 @@ class FactoryTest extends PHPUnit_Framework_TestCase
      */
     public function generator_gets_a_instance_of_faker_and_the_provided_data()
     {
-        $faker = $this->getMock(\Faker\Factory::class);
+        $faker = $this->getMock(\Faker\Generator::class);
         $data = ['id' => '123'];
         $factory = new Factory;
         $factory->setFaker($faker);
@@ -199,7 +199,7 @@ class FactoryTest extends PHPUnit_Framework_TestCase
      */
     public function faker_getter_and_setter()
     {
-        $faker = $this->getMock(\Faker\Factory::class);
+        $faker = $this->getMock(\Faker\Generator::class);
         $factory = new Factory;
 
         $factory->setFaker($faker);

@@ -3,7 +3,7 @@
 namespace MBIct\Factory;
 
 use Closure;
-use Faker\Factory as Faker;
+use Faker\Generator as Faker;
 use MBIct\Factory\Exceptions\DefinitionAlreadyDefinedException;
 use MBIct\Factory\Exceptions\DefinitionNotCallableException;
 use MBIct\Factory\Exceptions\DefinitionNotFoundException;
