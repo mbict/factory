@@ -1,0 +1,21 @@
+{
+    "name": "mbict/factory",
+    "type": "library",
+    "description": "Class factory manager for creating fake data models for testing",
+    "keywords": ["factory","testing"],
+    "homepage": "http://github.com/mbict/factory",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Boke",
+            "email": "michael.boke@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+        "fzaninotto/faker" : ">=1.5"
+    },
+    "autoload": {
+        "psr-4": {"MBIct\\Factory\\": "src/"}
+    }
+}
